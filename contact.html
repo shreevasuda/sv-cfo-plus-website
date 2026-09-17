@@ -291,9 +291,8 @@ footer.site a:hover{color:#fff}
 <body>
 <div class="topbar">
   <div class="topbar-in">
-    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:shreevasudaventure@gmail.com">shreevasudaventure@gmail.com</a></span>
-    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="tel:+919974165193">+91 99741 65193</a></span>
-    <span class="r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><path d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>Surat &middot; Mumbai&ndash;Thane, India</span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:contact@svcfoplus.in">contact@svcfoplus.in</a></span>
+    <span class="r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><path d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>Surat Office &middot; Registered Office: Thane, Mumbai</span>
   </div>
 </div>
 <header class="site">
@@ -321,7 +320,10 @@ footer.site a:hover{color:#fff}
         <h2>Send an Enquiry</h2>
         <p>Please complete the form below and we will get back to you shortly. Fields marked with an
         asterisk are required.</p>
-        <form id="enquiry" novalidate>
+        <form id="enquiry" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="e3d2d011-7bc8-4f89-b9d9-9a20132b12f6">
+          <input type="hidden" name="subject" value="New Website Enquiry - SV CFO Plus">
+          <input type="checkbox" name="botcheck" style="display:none">
           <div class="f2">
             <div class="field"><label for="f-name">Your Name *</label>
               <input id="f-name" name="name" type="text" required autocomplete="name"></div>
@@ -331,7 +333,7 @@ footer.site a:hover{color:#fff}
           <div class="f2">
             <div class="field"><label for="f-email">Email *</label>
               <input id="f-email" name="email" type="email" required autocomplete="email"></div>
-            <div class="field"><label for="f-phone">Phone or WhatsApp</label>
+            <div class="field"><label for="f-phone">Your Phone (Optional)</label>
               <input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
           </div>
           <div class="f2">
@@ -353,9 +355,11 @@ footer.site a:hover{color:#fff}
             <textarea id="f-msg" name="message" required
               placeholder="The software you use, roughly how many transactions a month, what is going wrong today, and two or three convenient times to talk."></textarea></div>
           <button class="btn" type="submit">Send Enquiry</button>
-          <p class="small muted" id="f-status" style="margin-top:18px">This form opens your own email
-          application with the message ready to send, so nothing is stored on this website. You can
-          also write to us directly at <a href="mailto:shreevasudaventure@gmail.com">shreevasudaventure@gmail.com</a>.</p>
+          <p class="small muted" id="f-status" style="margin-top:18px">
+          Your enquiry will be sent securely to our team. We will get back to you shortly.
+          You can also write to us directly at
+          <a href="mailto:contact@svcfoplus.in">contact@svcfoplus.in</a>.
+        </p>
         </form>
       </div>
 
@@ -363,13 +367,11 @@ footer.site a:hover{color:#fff}
         <div class="infoblock">
           <h3>Contact Details</h3>
           <div class="iline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></svg><div><b>Email</b>
-            <a href="mailto:shreevasudaventure@gmail.com">shreevasudaventure@gmail.com</a></div></div>
+            <a href="mailto:contact@svcfoplus.in">contact@svcfoplus.in</a></div></div>
           <div class="iline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><div><b>Phone</b>
             <a href="tel:+919974165193">+91 99741 65193</a></div></div>
           <div class="iline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z"/><path d="M12 6v6l4 2"/></svg><div><b>Hours</b>
             <span>Monday to Saturday, 10:00 to 19:00 IST</span></div></div>
-          <p style="margin:24px 0 0"><a class="wa" href="https://wa.me/919974165193" target="_blank"
-            rel="noopener">Message Us on WhatsApp</a></p>
         </div>
         <div class="infoblock">
           <h3>Our Offices</h3>
@@ -435,12 +437,11 @@ footer.site a:hover{color:#fff}
       <div>
         <h5>Surat Office</h5>
         <p style="margin:0 0 14px">B-408, 4th Floor, Ambrosia Business Hub,<br>Near Nandini-3, VIP Road, Vesu,<br>Surat, Gujarat &ndash; 395007</p>
-        <p style="margin:0"><a href="tel:+919974165193">+91 99741 65193</a></p>
       </div>
       <div>
         <h5>Registered Office</h5>
         <p style="margin:0 0 14px">2218, Solus Building, Hiranandani Estate,<br>Opp. Bayer House, Thane (W),<br>Mumbai, Maharashtra &ndash; 400 607</p>
-        <p style="margin:0"><a href="mailto:shreevasudaventure@gmail.com">shreevasudaventure@gmail.com</a></p>
+        <p style="margin:0"><a href="mailto:contact@svcfoplus.in">contact@svcfoplus.in</a></p>
       </div>
     </div>
     <div class="fbot">
@@ -465,16 +466,34 @@ footer.site a:hover{color:#fff}
   var f=document.getElementById('enquiry');
   if(f){f.addEventListener('submit',function(ev){
     ev.preventDefault();
-    var g=function(i){var e=document.getElementById(i);return e?e.value.trim():'';};
-    var body=['Name: '+g('f-name'),'Organisation: '+g('f-company'),'Location: '+g('f-country'),
-              'Email: '+g('f-email'),'Phone: '+g('f-phone'),'Service: '+g('f-service'),
-              '','Message:',g('f-msg')].join('\n');
-    window.location.href='mailto:shreevasudaventure@gmail.com?subject='+
-      encodeURIComponent('Website enquiry - '+(g('f-company')||g('f-name')||'new enquiry'))+
-      '&body='+encodeURIComponent(body);
     var s=document.getElementById('f-status');
-    if(s){s.textContent='Your email application should now open with the message ready to send. If nothing happens, please write to us directly at shreevasudaventure@gmail.com.';}
+    var btn=f.querySelector('button[type="submit"]');
+    if(s){s.textContent='Sending your enquiry...';}
+    if(btn){btn.disabled=true;btn.textContent='Sending...';}
+
+    var formData=new FormData(f);
+    fetch('https://api.web3forms.com/submit',{
+      method:'POST',
+      body:formData,
+      headers:{'Accept':'application/json'}
+    }).then(function(response){
+      return response.json().then(function(data){
+        return {ok:response.ok,data:data};
+      });
+    }).then(function(result){
+      if(result.ok){
+        if(s){s.textContent='Thank you. Your enquiry has been sent successfully. We will get back to you shortly.';}
+        f.reset();
+      }else{
+        if(s){s.textContent='We could not send your enquiry right now. Please email us directly at contact@svcfoplus.in.';}
+      }
+    }).catch(function(){
+      if(s){s.textContent='We could not send your enquiry right now. Please email us directly at contact@svcfoplus.in.';}
+    }).finally(function(){
+      if(btn){btn.disabled=false;btn.textContent='Send Enquiry';}
+    });
   });}
+
 })();
 </script>
 </body>
